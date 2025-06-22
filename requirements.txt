@@ -28,4 +28,6 @@ httpie==3.2.1
 behave==1.2.6
 selenium==4.1.0
 compare==0.2b0
-requests==2.28.2
+requests==2.32.4
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
